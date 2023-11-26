@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>힌스사이트</title>
+        <link rel="stylesheet" href="css/style2.css" />
+    </head>
+    <body>
+        <header>
+            <div class="centerbox">
+                <h1>
+                    <a href="index.html"><img src="images/hince_logo.svg" alt="" /></a>
+                </h1>
+
+                <p><a href="#">COLLECTION</a></p>
+
+                <div class="board_link">
+                    <div>
+                        <a href="#"><span>LOGOUT</span></a>
+                        <a href="#">MYPAGE</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="visual">
+            
+        </div>
+        
+
+        <div id="section_box">
+            <section id="section1">
+                <div class="centerbox">
+                    <h2><span>Mesh & Matte</span></h2>
+                    <ul class="img_box">
+                        <li><a href="#"><img src="images/cushionmodel1.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/cushionmodel2.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/cushionmodel3.png" alt=""></a></li>
+                    </ul>
+                    <p class="mesh">메쉬로 더욱 얇고 촉촉하게, 48H 섬세한 실크 피부결</p>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="centerbox">
+                    <div class="cushion_box">
+                        <h3>SECOND SKIN MESH MATTE CUSHION</h3>
+                        <strong>세컨 스킨 메쉬 매트 쿠션</strong>
+                        <figure><img src="images/cushionimage.jpg" alt=""></figure>
+                        <p>메쉬=글로우의 공식을 깬,<br>
+                            신개념 메쉬 매트 쿠션</p>
+                    </div>
+                    <div class="content_box">
+                        <h3>힌스가 선보이는 <strong>첫번째 매트 쿠션</strong></h3>
+                        <ul class="no">
+                            <li>
+                                <h4>1. NO THICKNESS</h4>
+                                <p>매트 쿠션 특유의 두꺼운 느낌을 개선한<br>
+                                    <strong>유연하고 매끄러운 실키 매트 피니시</strong></p>
+                            </li>
+                            <li>
+                                <h4>1. NO DRYNESS</h4>
+                                <p>모든 피부 타입이 편안하게 사용할 수 있는<br>
+                                    <strong>얇고 부드럽게 펴발리는 사용감</strong>
+                            <li>
+                                <h4>1. NO DARKENING</h4>
+                                <p>내츄럴한 결 표현에도 놓치지 않는 커버력<br>
+                                    <strong>내 피부인듯 오래도록 유지되는 화사함</strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section3">
+                <div class="centerbox">
+                    <figure><img src="images/giftimage.png" alt=""></figure>
+                </div>
+            </section>
+        </div>
+
+        <div id="floatingmenu">
+            <a href="#section1" data-semin="S1">S1</a>
+            <a href="#section2" data-semin="S2">S2</a>
+            <a href="#section3" data-semin="S3">S3</a>
+            <a href="#" data-semin="TOP">TOP</a>
+        </div>
+        <!-- data- ㅇㅇ 은 연결되어있는 s1,s2,s3,top 등 글자를 불러올수 있는 코드임 -->
+        <!-- section1, 2, 3 은 id 로 설정해놨기 때문에 바로 연결될 수 있게
+    #뒤에 입력하면됨  -->
+
+        <footer>
+            <div class="centerbox">
+                <h1><img src="images/logo2.png" alt="" /></h1>
+                <ul>
+                    <li class="intro">
+                        <span>회사소개</span>
+                        <span>서비스이용약관</span>
+                        <span>개인정보처리방침</span>
+                        <span>사업자정보확인</span>
+                    </li>
+                    <li class="address">
+                        서울특별시 마포구 동막로 18 B1F ~ 4F <br />
+                        &nbsp;&nbsp;&nbsp;T.070-5080-1717 F.02-6008-2717
+                        E.cs@vivawave.co.kr
+                    </li>
+                    <li class="name">
+                        PERSONAL INFORMATION MANAGER. <br />
+                        &nbsp;&nbsp;&nbsp;HEO JAE SEOK
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="script/jquery-3.7.0.min.js"></script>
+        <script src="script/action.js"></script>
+        <script src="script/skrollr.min.js"></script>
+
+        <script>
+            skrollr.init();
+        </script>
+    </body>
+</html>

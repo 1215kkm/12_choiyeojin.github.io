@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('reset.css');
+@import url('fonts.css');
+
+html {font-size: 20px;}
+
+body {background: #262626;
+    --mainC1:#1050a5;
+}
+.center_box {width: 1200px;margin: 0 auto;}
+
+header {width: 100%;height: 210px;position: absolute;top: 0; left: 0;}
+header h1 {width: 215px;height: 120px; position: absolute;left: 50%;top: 30px; transform: translateX(-50%);}
+header h1 img {width: 100%;}
+header .loginbox {width: 290px;height: 4.27rem;line-height: 4.27rem;float: right; font-size: 0.7rem;}
+header .loginbox a {color: #a3a3a3; float: left;padding:0 15px; font-family: 'TheJamsil5Bold';font-weight: 100;position: relative;}
+header .loginbox a:before {content: ""; position: absolute;width: 5px;height: 5px;background: var(--mainC1); top: 39px; left: 0;}
+header nav {max-width: 1200px;height: 3rem;margin: 150px auto 0 auto;}
+header nav .gnb {text-align: center;font-size: 0;}
+header nav .gnb li {height: 3rem;line-height: 3rem; padding: 0 3.2rem; font-size: 1.2rem; display: inline-block;font-family: 'Walter';}
+header nav .gnb li:hover a {color: #eebb30;transition: .3s;}
+header nav .gnb li a {color: #fff;}
+header nav .gnb li a span {color: #eebb30;}
+
+/* header */
+
+
+
+#visual {width: 100%;height: 550px;background:url(../images/insideoutbg.png) no-repeat center ; background-size: cover;padding: 170px 0;}
+#visual .text_box {width: 790px;height: 400px; margin: 200px auto;}
+#visual .text_box li.leanback {animation: lean 1s forwards;}
+@keyframes lean {
+    0% {opacity: 0.5;line-height: 20px;}
+    100% {opacity: 1;line-height: 50px;}
+}
+#visual .text_box li strong {font-size: 60px; color: #fff;text-align: center;}
+
+#visual .text_box li span.accord {font-size: 20px; line-height: 75px;color: #fff; font-weight: 100;text-align: center;display: block;}
+#visual .text_box li.button2 {position:relative; width: 230px;height: 75px;border: 1px solid #fff;background: rgba(39, 56, 77, 0.1); margin: 20px auto; animation: none;} 
+#visual .text_box li.button2 a {font-size: 18px;color: #fff; font-weight: lighter;line-height: 75px; display: block; text-align: center;}
+#visual .text_box li.button2 a span {color: #12b2bb;font-size: 22px; }
+#visual .text_box li.button2 {
+    -webkit-transition: border-color 0.4s, color 0.4s;
+    transition: border-color 0.4s, color 0.4s;
+  }
+  #visual .text_box li.button2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #37474f;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  #visual .text_box li.button2::before {
+    border-radius: 2px;
+  }
+  #visual .text_box li.button2:before {
+    background: #7986CB;
+  }
+  #visual .text_box li.button2,
+  #visual .text_box li.button2::before {
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  #visual .text_box li.button2:hover{
+    color: #fff;
+    border-color: #37474f;
+  }
+
+  #visual .text_box li.button2:hover a {font-size: 17px; transition: 0.4s;opacity: 0.5;}
+/* VISUAL  */
+
+
+
+
+
+
+
+/* SECTION1 */
+#section1 {width: 100%;height: 1200px;}
+#section1 h2 {font-size: 68px;color: #fff; font-family: 'pretendard'; font-weight: lighter;
+display: block;text-align: center; margin-top: 90px; animation: qna alternate 1s;}
+@keyframes qna {
+  0% {opacity: 0.5;line-height: 20px;}
+  100% {opacity: 1;line-height: 50px;}
+}
+#section1 h2 span {color: #b3cff7;}
+#section1 p {font-size: 18px; color: #fff;font-family: 'pretendard';display: block;
+text-align: center; line-height: 24px;}
+#section1 .answer_box {margin-top: 25px; margin-left: 35px;}
+
+
+
+
+/* SECTION2 */
+
+.section2 {width: 100%;height: 1000px;}
+.section2 h2 {font-size: 40px;color: #fff; font-family: 'pretendard'; font-weight: lighter;
+  display: block;text-align: center; margin-top: 90px;}
+.section2 p {font-size: 16px; color: #fff;font-family: 'pretendard';display: block;
+    text-align: center; line-height: 40px;}
+.section2 hr {width: 700px;height: 2px;background: #b3cff7;margin: 15px auto;}
+.section2 .content {width: 100%;height: 568px;background: #fff; margin-top: 90px;display: block;}
+.board_page_write li {width: 100%;border-bottom: 1px solid #e9e9e9;display: flex; gap: 15px;}
+.board_page_write li > label {width: 160px;line-height: 60px; background: #7486a0; color: #fff; text-align: center;font-weight: normal;font-family: 'pretendard';}
+.board_page_write li span {display: flex;flex-grow: 1;}
+.board_page_write li span label {margin: 20px 10px 0 10px;font-family: 'pretendard'; font-size: 20px;}
+
+.board_page_write li span input[type=radio] {width: 14px;height:14px; margin-right: 7px;}
+.board_page_write li span input[type=text] {width: 97.3%; height: 40px;border: 1px solid #7486a0; margin-top: 10px; font-size: 16px;text-indent: 7px;}
+
+.board_page_write li span textarea {width: 96%;margin: 10px 0 ; border: 1px solid #7486a0; height: 280px;
+resize: none;padding: 10px 7px; font-size: 17px;font-family: 'pretendard';} 
+.board_page_write li span input[type=file] {width:250px; height: 50px; line-height: 60px; font-size: 16px; background: #fff;font-family: 'pretendard'; text-indent: 6px;}
+
+
+/* FOOTER */
+
+footer {width: 100%;height: 350px;background: #000;}
+footer h1 img {width: 169px;height: 95px;}
+footer .address_box {width: 400px;height:195px;float: left; margin-top: 40px;margin-left: 175px;}
+footer .address_box span {color: #fff;font-size: 16px;line-height: 30px;font-weight: normal ;font-family: 'pretendard';}
+footer .address_box p {width: 430px;height: 40px;float: left;color: #fff;font-size: 16px; font-family: 'Pretendard'; font-weight: normal;margin-top: 40px;}
+footer .icon_box {width: 400px;height: 70px;float: right; margin-top: 155px; margin-right: 150px;}
+footer .icon_box .icons {width: 300px;height: 30px;}
+footer .icon_box li {width: 33px;height: 30px;float: right; margin-right: 22px;}
+footer .icon_box li:nth-child(3) img {width: 30px;}
+footer .icon_box li:nth-child(2) img {width: 23px;}
+footer .icon_box li img {width: 25px;height: 20px;}
+
+footer .icon_box .promise {font-size: 14px;float: right; width: 300px; margin-top: 105px; margin-right: 100px;
+font-family: 'pretendard'; color: #fff;word-spacing: 20px; font-weight: normal;}

@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('reset.css');
+@import url('fonts.css');
+
+
+
+.centerbox {max-width: 1200px;margin: 0 auto;}
+
+header {position: absolute;width: 100%;height: 111px;background: rgba(113, 101, 177, 1); border-bottom: 1px solid #fff; transition: 0.2s;z-index: 7;}
+header:hover {background: rgba(113, 101, 177, 0.5);}
+header h1 {width:500px;height: 100px;float: left;margin-left: 8%;}
+header h1 img {width: 100%;height: 100%;padding: 5px 0;}
+/* 헤더 h1 여기까지*/
+
+header .hamburger {float: right;width: 78px;height: 78px;margin-top: 32px; margin-right: 6%;position: relative;}
+header .hamburger span {width: 29px;height: 3px;background: #fff;position: absolute;left: 25px;border-radius: 0 0 50px 0;}
+header .hamburger span:nth-child(1) {top: 27px;}
+header .hamburger span:nth-child(2) {top: 37px; width: 22px;}
+header .hamburger span:nth-child(3) {top: 47px;}
+/* header hamburger 여기까지 */
+
+
+
+header .gnb {float: right;height: 78px;margin-top: 32px;margin-right: 32px;}
+header .gnb > li {height: 78px;line-height: 78px; font-size: 20px;float: left;position: relative;}
+header .gnb > li > a {color: #fff; padding: 0 2vw; display: block;}
+header .gnb li .lnb {position: absolute; width: 100%; font-weight: normal;z-index: 2; display: none;} 
+header .gnb li .lnb li {font-size: 16px;height: 50px;line-height: 50px;text-align: center;}
+header .gnb li .lnb li a {display: block;}
+header .gnb li .lnb li a:hover {color: blueviolet;}
+/* header gnb 여기까지 */
+
+
+header .lnb_bg {position: absolute;width: 100%; height: 300px;top: 111px; background: rgba(255, 255, 255, 0.97);border-bottom: 1px solid rgb(123, 0, 255);display: none;}
+
+
+
+
+
+/* visual2 start */
+#visual2 {width: 100%;height: 355px;background: url(../images/VISUAL.jpg) ; background-size: cover;position: relative;overflow: hidden; background-position: 0 -200px;}
+
+
+#visual2 .text_box2 {width: 1000px;height: 300px; position: absolute; top: 200px; left: 50%; transform: translateX(-50%);text-align: center;}
+#visual2 .text_box2 strong {font-size: 36px;color: #fff; font-weight: bold;font-family: 'Pretendard';line-height: 0.4;}
+#visual2 .text_box2 strong span {display: block;position: relative;}
+#visual2 .text_box2 strong span:nth-child(1) {color:#f4c9fd; animation: textAni1 1s forwards;opacity: 0;}
+@keyframes textAni1 {
+    0% {left: 300px; opacity: 0;}
+    100% {left: 0; opacity: 1;}    
+}
+#visual2 .text_box2 strong span.dt {animation: textAni2 1s forwards; opacity: 0;animation-delay:0.3s ; color: #fff;}
+@keyframes textAni2 {
+    0% {right: 300px; opacity: 0;}
+    100% {right: 0; opacity: 1;}
+}
+
+
+/* 반응형 조건 '미디어쿼리' */
+/* @media screen and (min-width:1024px) and (max-width:1541px){
+    header h1 {margin-left: 4%;width: 23vw;}
+    header .hamburger {margin-right: 4%;}
+    header .gnb {width: auto; }
+    header .gnb li {font-size: 18px;}
+    header .gnb li a {padding: 0 2.5vw;}
+} */
+
+@media screen and (min-width:780px) and (max-width : 1280px) {
+    header .gnb {display: none;}
+}
+@media screen and (max-width : 780px){
+    header {height: 46px;background: rgba(113, 101, 177, 0.5);}
+    header h1 {margin-left: 0; position: absolute; left: 50%; transform: translate(-50%); width: 160px; height: 40px; float: none;}
+    header .gnb {display: none;}
+    header .hamburger {margin-right: 0; width: 45px;height: 45px;float: left;margin: 0 ;}
+    header .hamburger span {left:8px}
+    header .hamburger span:nth-child(1) {top: 10px;}
+    header .hamburger span:nth-child(2) {top: 20px;}
+    header .hamburger span:nth-child(3) {top: 30px;}
+    #visual {background-position:  center; }
+    #visual .text_box {width: 500px;height: 400px;}
+    #visual .text_box strong,
+    #visual .text_box p {font-size: 50px;}
+    #visual .text_box hr {width: 100px;}
+    #visual .text_box p {font-size: 30px;}
+    #section_box {width: auto;}
+}
+/* visual2  end */
+
+
+
+
+
+
+/* section_sub1 start */
+#section_sub1 .centerbox {position: relative;}
+#section_sub1 .reserve_box {width: 850px;height: 80px;background: #000; position: absolute;
+    top: -40px; background: #35234a; border: 1px solid #361365; left: 14%; z-index: 5;}
+
+#section_sub1 .reserve_box .cont li.reserve {width: 170px;height: 80px;float: left; background-color: #fff;text-align: center;}
+#section_sub1 .reserve_box .cont li.reserve a {font-size: 18px; color: #361365;line-height: 80px;border-bottom:none;}
+
+#section_sub1 .reserve_box .cont li {width: 160px; background-color: #35234a;float:left;height: 80px; text-align: center;}
+#section_sub1 .reserve_box .cont li a {line-height: 50px; color: #fff; font-size: 15px;border-bottom: 1px solid #594c71;}
+#section_sub1 .reserve_box .cont figure {width: 20px; height: 80px;float: right;}
+#section_sub1 .reserve_box .cont figure img {width: 20px;height: 20px;display: block;margin: 30px -15px;}
+#section_sub1 .reserve_box .cont li a:hover {opacity: 0.3; transition: 0.3s;}
+/* section_sub1 end */
+
+
+
+
+/* section_sub2 start */
+#section_sub2 {width: 100%;height: 930px;background: url(../images/section2_bg.jpg) no-repeat; overflow: hidden;}
+#section_sub2 .centerbox {position: relative;}
+#section_sub2 .deluxe_box {width: 690px;height: 480px;position: absolute;top: 230px;}
+#section_sub2 .deluxe_box figure {width: 690px;height: 460px;}
+#section_sub2 .deluxe_box figure img {width: 690px;height: 460px;}
+#section_sub2 .deluxe_box p {width: 200px;height: 40px;line-height: 40px; font-size: 16px;color: #000; text-indent: 5px;} 
+#section_sub2 .bed {width: 215px;height: 520px;background: #ddd;position: absolute;top: 270px; left: 51%;z-index: 5;border: 2px solid #f6f0fc;}
+#section_sub2 .bath {width: 215px;height: 520px;background: #aaa;position: absolute;top: 182px; left: 62%;z-index:4;border: 2px solid #f6f0fc;}
+#section_sub2 .table {width: 215px;height: 520px;background: #000;position: absolute;top: 300px; left: 71%; z-index: 1;border: 2px solid #f6f0fc;}
+#section_sub2 .bed figure img {width: 215px;height: 520px;}
+#section_sub2 .bath figure img {width: 215px;height: 520px;}
+#section_sub2 .table figure img {width: 215px;height: 520px;}
+
+/* section_sub2 end */
+
+
+/* section_sub3 start */
+#section_sub3 {width: 100%;height: 490px; background :#f9f9fc;}
+#section_sub3 .centerbox {position: relative;}
+#section_sub3 ul {width: 100%;height: 340px; position: absolute;top: 80px;}
+#section_sub3 ul li {width: 390px;height: 340px; background: #eee;float: left;}
+#section_sub3 ul li:nth-child(1),
+#section_sub3 ul li:nth-child(2) {margin-right: 14px;}
+#section_sub3 ul li figure img {width: 390px;height: 340px;}
+#section_sub3 ul li:nth-child(1) {background: url(../images/juniorsweet.jpg); background-size: cover;} 
+#section_sub3 ul li:nth-child(2) {background: url(../images/premiumcornerroom.png); background-size: cover;} 
+#section_sub3 ul li:nth-child(3) {background: url(../images/twinbed.png); background-size: cover;} 
+#section_sub3 ul li h3 {width: 200px;height: 40px;font-size: 16px; color: #fff; font-weight: normal;line-height: 40px;
+ text-align: center;margin-top: 10px; margin-left: 10px;background-color: #000; background-color: rgba( 0, 0, 0, 0.4)}
+/* section_sub3 end */
+
+/* section_sub4 start */
+#section_sub4 {width: 100%; height: 620px;}
+#section_sub4 h2 {width: 165px;height: 45px;margin: 80px auto;font-size: 36px;}
+#section_sub4 .notice_box {width: 1050px;}
+#section_sub4 li {width: 225px;height: 225px;}
+
+
+
+
+
+
+/* section5 end */
+
+#floating_menu {position: absolute; width: 80px; height: auto; z-index: 7; background: #000; right: 10px; top: 200px;;}
+#floating_menu a {width: 60px; height: 60px; display: block; background: #fff; border-radius: 50%; margin: 10px auto; font-size: 14px; line-height: 60px; text-align: center;}
+
+
+
+
+
+footer{height: 300px; background: #361365;}
+
+footer h1 {width: 164px;height: 150px; float: left;
+margin: 75px auto;}
+footer h1 img {width: 164px;height: 150px;}
+footer address {width: 420px;height: 150px;margin:75px 70px;float: left;font-size: 20px;color: #fff; font-style: normal;line-height: 40px;font-weight: lighter;}
+footer p {width: 400px;height: 50px;color: #fff; float: right;font-size: 16px;line-height: 70px;word-spacing: 20px;}

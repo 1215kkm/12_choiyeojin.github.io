@@ -1,0 +1,183 @@
+@charset "UTF-8" ;
+@import url('reset.css');
+@import url('fonts.css');
+
+.centerbox {width: 1200px; margin: 0 auto;}
+
+header {width: 100%; height: 156px; position: relative;  background: #f8f4f3; margin: 0 auto;}
+header .centerbox {width: auto; max-width: 1600px; min-width: 1200px}
+header h1 {width: 150px; height: 50px;margin: 10px auto;float: left;}
+header h1 img {width:150px;height: 50px;}
+header .gnb {width: 900px; height: 100px; float: left;margin: 30px auto; }
+header .gnb li {float: left; height: 70px; line-height: 35px;width: 200px;}
+header .gnb li a {display: block; color: #cf8a86;font-size: 16px;font-family: "SUIT-Regular";text-align: center;opacity: 1;}
+header .gnb li a:hover {opacity: 0.5;transition: 0.2s;}
+header .gnb li .lnb {width: 100%;height: 100%;margin-top: 1px;}
+header .gnb li .lnb li {background:#faf9f7;width: 100%; height: 100%;display: none;}
+header .gnb li .lnb li a {line-height: 70px; color: #cf8a86;font-size: 16px;font-family: "SUIT-Regular";text-align: center;opacity: 1;}
+header .gnb li:hover .lnb li {display: block;}
+header .gnb li .lnb li:hover a {background: #624441;color: #fff;transition: 0.2s;}
+header .centerbox p {width: 135px;height: 50px;margin: 0 auto 10px auto;}
+header .centerbox p a {font-size: 30px;color: #cf8a86; font-family: 'century';font-weight: normal;line-height: 70px;opacity: 0.5;margin-top: 90px;display: inline-block;}
+header .centerbox p a:hover {opacity: 1;}
+header .centerbox .board_link {width: 150px; height: 30px; top: 0;left: 85%; position: absolute;}
+header .board_link a {padding: 0 10px; line-height: 35px; color: #cf8a86;font-size: 12px; font-family: 'SUIT-Regular';position: relative;opacity: 1;}
+header .board_link a:hover {opacity: 0.5; transition: 0.2s;}
+header .board_link a span::after {content: ''; background-color: #cf8a86; width: 1px; height: 9px;float: right;position: absolute;left: 73px; top: 3px;}
+
+#visual {width: 100%;height: 900px;position:relative;background: url(../images/png/servevisual.png) no-repeat; background-size: cover;}
+#visual .centerbox img {width: 100%;height: 900px;}
+#visual .centerbox h2 {width: 250px;height: 90px;float: right;margin: 200px 180px 0 auto;} 
+#visual .centerbox h2 img {width: 250px;height: 90px;}
+#visual .centerbox p {width: 600px;color: #fff;font-size: 16px;font-family: 'SUIT';text-align: center;line-height: 36px; font-weight: lighter;margin-top: 40px;float:right; margin-left:500px; }
+
+
+
+
+
+
+
+
+#section1 {width: 100%;height: 700px;background:url(../images/png/servebg.png);position: relative;} 
+#section1 h2 {height: 90px; line-height: 90px; text-align: center;font-family: 'Centaur'; color: #936763;font-size: 32px;font-weight: bold;}
+#section1 .cont_box {width: 440px;height: 265px;float: left; margin-top: 245px;}
+#section1 .centerbox h3 {width: 415px;height: 40px; line-height:550px;}
+#section1 .centerbox h3 img {width: 150px;height: 40px;}
+#section1 .centerbox h3 span {font-size: 40px;font-family: 'centaur'; color: #fff;font-weight: normal; margin-left: 8px;}
+
+#section1 .cont_box .mood {width: 230px;height: 45px; color: #fff;  font-size: 20px; margin:26px 9px 0 9px; font-weight: normal;line-height: 25px;}
+#section1 .cont_box .address_box {width: 216px;height: 70px;background: #d5bcad; margin: 25px 9px;}
+#section1 .cont_box .address_box .ad{line-height: 24px; color: #fff;font-size: 13px; text-align: left; width: 220px;padding:0 5px;}
+#section1 .centerbox .img_box {width: 710px;height: 525px;float: right;}
+#section1 .centerbox .img_box figure {width: 710px;height: 525px;margin: 88px 0 88px 20px;}
+
+
+
+
+
+
+
+
+            
+#section2 {width:100%; height: 690px;background:url(../images/png/servesection22.png) no-repeat; background-size: cover; }
+#section2 .centerbox {position: relative;}
+#section2 .centerbox .model_box {position: absolute;width: 1048px;height: 540px; margin: 80px auto;}
+#section2 .centerbox strong span {color: #e29590;}
+#section2 .centerbox strong {font-size: 50px;font-family: 'century'; line-height: 45px;color: #fff;font-weight: normal;position: absolute;left: 53.3%;top:10%;width:500px;height: 45px;}
+#section2 .centerbox .model_box .lip {width: 450px;height: 310px;background: #eee;position: absolute; left: 10%;z-index: 3;}
+#section2 .centerbox .model_box .lip img {width: 450px;height: 310px;}
+#section2 .centerbox .model_box .model1
+{width: 675px;height: 400px;position: absolute;background: #000;top: 18%; left: 45%;z-index: 5;}
+#section2 .centerbox .model_box .model1 img {width: 675px;height: 400px;}
+#section2 .centerbox .model_box .model2
+{width: 410px;height: 260px;position: absolute;background: #444;top: 50%;left: 21%; z-index: 0;}
+#section2 .centerbox .model_box .model2 img {width: 410px;height: 260px;}
+
+
+
+
+
+
+
+#section3 {width: 100%; height: 500px;background-color: #f9f6f5; background-size: cover;position: relative;}
+#section3 .centerbox .text_box {width: 990px;height: 55px;position: absolute;margin: 190px auto auto 650px;}
+/* #section3 .centerbox .text_box h4{width: 990px;height: 49px;font-size: 60px; ; line-height: 60px; color: #a15a56; word-spacing: 40px;} */
+#section3 .centerbox .text_box h4 {
+    font-size: 60px;
+    min-width:11px;
+    white-space: nowrap;
+    margin: 0;
+    color:#e4bfbc;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: 'century';
+    word-spacing: 40px;
+
+  }
+  
+  #section3 .centerbox .text_box.on h4::before {
+    content: "MOOD. TONE. ATTITUDE. IS";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #a15a56;
+    overflow: hidden;
+    border-right: 1px solid #a15a56;
+    animation: typing 5s steps(31) forwards;
+  }
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+
+#section3 .centerbox .text_box p {width: 750px;height: 18px;font-size: 20px;color: #e4bfbc; font-family: 'SUIT-Regular'; text-align: center;line-height: 18px;
+position: absolute; white-space: nowrap;right: 65%;}
+
+
+#section3 .centerbox .text_box p:before {
+    content: "힌스는 스스로의 신념과 열망에 확신을 가지고 보다 열정적으로 살아가는 삶에 영감을 제공합니다.";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    color: #a15a56;
+    overflow: hidden;
+    border-right: 1px solid #a15a56;
+  }
+  #section3 .centerbox .text_box.on p:before {
+    animation: typing 5s steps(30) forwards;}
+  
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+
+
+
+
+
+#floatingmenu {position: fixed; width: 50px;height: 300px;right: 20px; top: 200px;}
+
+
+#floatingmenu a {display: block;width: 50px;height: 50px; border-radius: 50%; background: #fff;text-align: center;line-height: 50px;
+font-size: 16px;margin-bottom: 7px;box-shadow: 10px 10px 20px rgba(0,0,0,0.1); color: #cf8a86; position: relative;overflow: hidden; z-index: 2; font-size: 0; color: transparent; transition: 0.5s;}
+
+#floatingmenu a:hover {background: #000;}
+
+
+
+#floatingmenu a::before {content: ""; position: absolute;transition: 0.5s;width: 100%; height: 100%;background: #624441;left: 0; transform: scale(0); z-index: 1;} 
+#floatingmenu a:hover:before {transform: scale(1);}
+#floatingmenu a:hover:after {color: #fff;}
+#floatingmenu a::after {content:attr(data-semin); position: absolute;width: 100%;height: 100%;left: 0; z-index: 2;font-size: 18px; color:#cf8a86;}
+/* content : attr 은 html 에 적혀있는 속성값을 부를 수 있는 코드임. */
+
+
+
+
+footer {width: 100%;height: 200px; background: url(../images/png/colorpink_04.png) no-repeat; margin: 0 auto; background-size: cover;}
+footer .centerbox h1 {width: 70px;height: 70px; margin: 65px 50px 65px 20px;float: left;}
+footer .centerbox h1 img {width: 70px;height: 70px;}
+footer .centerbox ul {width: 500px;height: 140px;margin:30px auto 30px 0px;float: left;}
+footer .centerbox ul .intro span {font-size: 14px; color: #fff; padding:10px;}
+footer .centerbox ul .address,
+footer .centerbox ul .name {font-size: 12px; margin: 30px auto;text-indent: 10px;color: #fff;}

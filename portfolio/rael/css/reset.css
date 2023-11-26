@@ -1,0 +1,12 @@
+/* reset */
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: #333; text-decoration: none;}
+
+ /* a:link {평상시모습}
+a:hover {마우스오버시모습}
+a:active {마우스누르고있는중의 모습}
+a:visited {color: red;} */
+
+
+.autoH:after {content: ""; display: block;clear: both;}

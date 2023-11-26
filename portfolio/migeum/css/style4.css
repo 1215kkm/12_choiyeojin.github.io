@@ -1,0 +1,82 @@
+@charset "UTF-8" ;
+@import url('reset.css');
+@import url('fonts.css');
+
+
+
+
+.centerbox {width: 1200px; margin: 0 auto;}
+
+header {width: 100%;height: 170px;}
+header .centerbox h1 {width: 480px;height: 85px; margin: 30px auto 0 auto;}
+header .centerbox .gnb {width: 1000px;height: 30px; margin: 40px auto 0 auto;float: right;display: block;}
+header .centerbox .gnb li {width: 150px;height: 30px;float: left;margin-right: 80px;}
+
+
+header .centerbox .gnb li a {font-size: 22px;display: block;line-height: 40px;text-align: center; transition: .3s;}
+header .centerbox .gnb li a:hover  {color: #1d5ca5; }
+header .centerbox .gnb li .lnb {width: 100%;height: 100%;display: block;position: relative;}
+header .centerbox .gnb li .lnb li {width: 100%;height: auto;background: #fff;display:none;z-index: 4;}
+header .centerbox .gnb li .lnb li a {font-size: 18px;line-height: 60px;}
+header .centerbox .gnb li .lnb li:hover a {background: #003777; color: #fff;transition: .2s;}
+header .centerbox .gnb li:hover .lnb li {display: block;}
+
+/* 여기까지 헤더 */
+
+
+#visual {width: 100%;height: 350px;background: url(../images/visualimage.png) no-repeat;background-size: cover;;}
+#visual .centerbox .text_box 
+{width: 460px; height: 140px;float: left; margin: 85px auto;}
+#visual .centerbox .text_box strong {font-size: 48px;line-height: 60px;}
+#visual .centerbox .text_box strong span.the2 {color:#0d3475;}
+#visual .centerbox .text_box strong span {color:#488bcf;
+font-family: 'GyeonggiTitleM'; }
+#visual .centerbox .text_box p {color: #000;font-family: 'GyeonggiTitleM';
+font-size: 36px;line-height: 60px;text-indent: 18px;}
+/* 비쥬얼 여기까지 */
+
+#section h2 {width: 100%;height: 90px;background: #2e5884;color: #fff;
+    font-size: 30px; line-height: 90px;text-align: center;}
+.section1 {height: 1450px;width: 100%;}
+.section1 .content {width: 1020px;height: 430px;float: left; margin-bottom: 50px; margin-left: 80px;}
+.section1 h3 {font-size: 40px;color: #143150; display: block;text-align: center;line-height: 150px;}
+.section1 .map_box {width: 570px;height: 428px;float: left; }
+.section1 .map_box .map {width: 500px;height: 428px;float: left;}
+.section1 .content .contact {float:right;width: 402px;height: 428px;}
+
+.section1 .content2 {width: 1200px;height: 700px;float:left;}
+.section1 .content2 h4 {font-size: 32px; text-align: center; line-height: 150px;display: block;}
+
+
+.section1 .content2 .img_box {width: 800px; height: 390px;margin: 0 200px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {width: 100%;height: 300px;background: #eee;position: relative;}
+footer h1 {width: 300px;height: 150px; display: block;
+;position: absolute;margin: 60px 450px 0 450px;}
+footer h1 img {width: 300px;height:60px;}
+footer address {width: 450px;height: 150px;text-align: center; font-style: normal;position: absolute;margin: 150px 400px;font-size: 18px; line-height: 24px;color: #444;}

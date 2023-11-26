@@ -1,0 +1,14 @@
+
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+
+body {font-family: 'pretendard';font-weight: normal;}
+
+
+
+@font-face {
+    font-family:'Bell';
+    src: url(../srcs/BellGothicStd-Black.otf);
+}

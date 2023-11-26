@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디즈니플러스</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/action.js"></script>
+    <script src="script/skrollr.min.js"></script>
+    <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+</head>
+<body>
+    <div class="progress" data-0="background:red" data-300="background:lime"></div>
+    <header>
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.svg" alt="">
+            </a>
+        </h1>
+
+        <div class="loginbox">
+            <a href="#">LOGIN</a>
+            <a href="#">JOIN</a>
+        </div>
+
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#"><span>A</span>BOUT</a>
+                </li>
+                <li>
+                    <a href="#"><span>S</span>ERVICE</a>
+                </li>
+                <li>
+                    <a href="#"><span>B</span>ESTS</a>
+                </li>
+                <li>
+                    <a href="#"><span>C</span>ONTENTS</a>
+                </li>
+                <li>
+                    <a href="#"><span>Q</span>&amp;A</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="visual">
+        <ul class="text_box">
+            <li class="leanback"><strong>Lean Back and Experience 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the best of Disney Plus</strong></li>
+            <li><span class="accord">You can choose according to your preference,  All the contents are in one place</span></li>
+            <li class="button2"><a href="#"><span>+</span>&nbsp;WATCH NOW</a></li>
+        </ul>
+    </div>
+
+    <div id="section_box">
+        <div class="center_box">
+            <div id="section1">
+                <h2>Q<span>&</span>A</h2>
+                <p>자주 묻는 질문</p>
+                <div class="answer_box">
+                    <figure><img src="images/subqna2.png" alt=""></figure>
+                </div>
+            </div>
+            <div class="section2 board_page_write autoH">
+                <h2>온라인 문의</h2>
+                <p>무엇이든 물어보세요</p>
+                <hr>
+                <div class="content">
+                    <!-- 쓰기 -->
+                    <ul class="board_write">
+                        <li>
+                            <label for="">구분</label>
+                            <span>
+                                <label for="divi1">
+                                    <input type="radio" name="division" value="문의" id="divi1">문의
+                                </label>
+                                <label for="divi2">
+                                    <input type="radio" name="division" value="의견" id="divi2">의견
+                                </label>
+                            </span>
+                        </li>
+                        <li>
+                            <label for="">제목</label>
+                            <span>
+                                <input type="text">
+                            </span>
+                        </li>
+                        <li>
+                            <label for="">작성자</label>
+                            <span>
+                                <input type="text">
+                            </span>
+                        </li>
+                        <li>
+                            <label for="">내용</label>
+                            <span>
+                                <textarea name="" maxlength="" minlength=""></textarea>
+                            </span>
+                        </li>
+                        <li>
+                            <label for="">파일첨부</label>
+                            <span>
+                                <input type="file">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>       
+
+        <footer>
+            <div class="address_box">
+                <h1><img src="images/logo.svg" alt=""></h1>
+                <span>서울특별시 강남구 테헤란로 152, 7층 (우편번호: 06236)</span><br>
+                <span>+82-080-822-1416</span><br>
+                <span>help@disneyplus.kr</span>
+                <p>디즈니+의 콘텐츠는 서비스 여부에 따라 달라질 수 있습니다<br>
+                    © 2022 Disney and its related entities. All Rights Reserved.</p>
+            </div>
+            
+            <ul class="icon_box">
+                <ul class="icons">
+                    <li><a href="#"><img src="images/instaicon.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/facebookicon.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/youtubeicon.png" alt=""></a></li>
+                </ul>
+                <span class="promise">개인정보처리방침     서비스이용약관     마케팅동의</span>
+            </ul>
+        </footer> 
+
+
+   
+
+
+
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js">
+        new TypeIt(".leanback strong", {
+            strings: "Lean Back and Experience the best of Disney Plus",
+            speed: 75,
+            loop: true,
+        }).go();
+    </script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+</body>
+</html>

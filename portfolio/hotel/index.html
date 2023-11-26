@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더블트리판교 리뉴얼</title>
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+
+    <!-- 포털사이트에 노출되는 PC website 정보-->
+    <meta name="title" content="호텔">
+    <meta name="Author" content="최여진">
+    <meta name="Keywords" content="호텔,분당,판교,신상호텔">
+    <meta name="Description" content="호텔,분당,판교,신상호텔">
+
+    <!--포털사이트에 노출되는 모바일 website 정보-->
+    <meta property="og:type" content="mobilesite">
+    <meta property="og:title" content="호텔" />
+    <meta property="og:description" content="호텔,분당,판교,신상호텔" />
+    <meta property="og:image" content="images/LOUNGE.png" /> <!-- 800x400 -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/action.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="#"><img src="images/logo.svg" alt=""></a></h1>
+        <div class="hamburger mo">
+            <span></span>
+            <span></span>
+            <span></span> 
+        </div>
+        <ul class="gnb pc">
+            <li><a href="#">호텔 소개</a></li>
+            <li><a href="sub1.html">시설 안내</a>
+                <ul class="lnb">
+                    <li><a href="sub1.html">시설 소개</a></li>
+                    <li><a href="sub1.html">서비스 소개</a></li>
+                </ul>
+            </li>
+            <li><a href="sub1.html">객실 안내</a>
+                <ul class="lnb">
+                    <li><a href="#">DELUXE ROOM</a></li>
+                    <li><a href="#">PREMIUM ROOM</a></li>
+                    <li><a href="#">TWO BED ROOM</a></li>
+                </ul>
+            </li>
+            <li><a href="sub1.html">예약 안내</a>
+                <ul class="lnb">
+                    <li><a href="#">이용요금 안내</a></li>
+                    <li><a href="#">스페셜요금 안내</a></li>
+                    <li><a href="#">할인혜택 안내</a></li>
+                </ul>
+            </li>
+            <li><a href="sub1.html">프로모션</a>
+                <ul class="lnb">
+                    <li><a href="#">객실 프로모션</a></li>
+                    <li><a href="#">다이닝 프로모션</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+        <div class="lnb_bg"></div>
+    </header>
+
+
+
+    <div id="visual">
+        <div class="text_box">
+            <strong>
+                <span>LIKE A SOFT SOFA</span>
+                <span>SWEET COMFORT</span>
+                <span>IN HILTON</span>
+            </strong>
+            <hr>
+            <p>편안함을 얻는 힐튼</p>
+        </div>
+    </div>
+
+
+    <div id="section_box">
+        <div id="section1">
+            <div class="centerbox">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/grand.png" alt=""></figure>
+                            <h3>GRAND BALLROOM</h3>
+                            <figure class="glass"><img src="images/🦆 icon _search_.png" alt=""></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/gallery.png" alt=""></figure>
+                            <h3>GALLERY</h3>
+                            <figure class="glass"><img src="images/🦆 icon _search_.png" alt=""></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/birthday.png" alt=""></figure>
+                            <h3>FIRST BIRTHDAY</h3>
+                            <figure class="glass"><img src="images/🦆 icon _search_.png" alt=""></figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/wedding.png" alt=""></figure>
+                            <h3>WEDDING</h3>
+                            <figure class="glass"><img src="images/🦆 icon _search_.png" alt=""></figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="section2">
+            <div class="centerbox">
+                <h2>객실 안내</h2>
+                <span>힐튼은 모든 이들에게 진정한 휴식의 섬세한 감동을 선사합니다.</span>
+                <ul class="board">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/guestroom.png" alt=""></figure>
+                            <h3>GUEST ROOM</h3>
+                            <p>더블트리 게스트 룸은 
+                               여유로운 크기의 모던한
+                               인테리어가 돋보이는 편안한 객실입니다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/deluxeroom.png" alt=""></figure>
+                            <h3>DELUXE ROOM</h3>
+                            <p>더블트리 디럭스 룸은 
+                                2개의 침실과 공용 로프트 공간과 함께 럭셔리 경험을 제공합니다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/juniorsweetroom.png" alt=""></figure>
+                            <h3>JUNIOR SWEET ROOM</h3>
+                            <p>더블트리 주니어 스위트 룸은
+                                격조 높은 럭셔리 경험을 위한 프라이빗한 공간입니다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/premiumcornerroom.png" alt=""></figure>
+                            <h3>PREMIUM CORNER ROOM</h3>
+                            <p>더블트리 프리미엄 코너룸은
+                                파노라마로 펼쳐지는 전망이 매력적인 코너형 객실입니다.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="section3">
+            <div>
+                <h2><img src="images/logo.svg" alt=""></h2>
+
+                <div class="centerbox">
+                    <a href="#">
+                        <ul class="left">
+                            <li class="icon1"><span>LOUNGE 'LYNX'</span>
+                                <img src="images/WINEBLACK2.png" alt="">
+                                
+                            </li>
+                            <li class="icon2">
+                                <span>WITH 'JERARD'</span>
+                                <img src="images/JERARDBLACK2 .png" alt="">
+                                
+                            </li>
+                        </ul>
+                        <ul class="right">
+                            <li class="icon3"><span class="summer">SUMMER BBQ</span>
+                                <img src="images/BEEFBLACK.png" alt="">
+                            </li>
+                            <li class="icon4"><span>LITTLE BUDDY</span>
+                                <img src="images/DOGBLACK.png" alt="">
+                            </li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="section4">
+            <div class="centerbox">
+                <h2>시설 안내</h2>
+                <span>힐튼은 다양한 서비스를 제공하여 편안함을 드립니다.</span>
+                <ul class="space_box">
+                    <li class="lounge">
+                        <a href="#">
+                          <div class="name_box">
+                                <h3>EXECUTIVE LOUNGE</h3>
+                                <p>아늑한 분위기의 이그제큐티브 라운지는 프라이빗한 순간을 선사합니다.</p>
+                          </div>
+                        </a>
+                    </li>
+                    <li class="swim">
+                        <a href="#"><h4>SWIMMING POOL</h4></a>
+                    </li>
+                    <li class="sauna">
+                        <a href="#"><h4>CLEAN SAUNA</h4></a>
+                    </li>
+                    <li class="gym">
+                        <a href="#"><h4>HEALTHY GYM</h4></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="centerbox">
+            <h1><a href="#"><img src="images/logo.svg" alt=""></a></h1>
+            <address>더블트리 바이 힐튼 서울 판교 <br>
+                    대한민국 경기도 성남시 분당구 백현로 26 <br>
+                    HILTON 예약센터 : 080-682-0882 <br>
+                    COPYRIGHT @2023 HILTON SEOUL PANGYO
+            </address>
+            <p>기업정보 사이트맵 사이트이용규약 개인정보취급방침     </p>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+
+
+body {font-family: 'pretendard';font-weight: normal;}
+
+
+@font-face {
+    font-family: 'gmarketlight';
+    src: url(../srcs/GmarketSansLight.otf);
+}
+
+@font-face {
+    font-family: 'gmarketmedium';
+    src: url(../srcs/GmarketSansMedium.otf);
+}
+
+@font-face {
+    font-family: 'gmarketbold';
+    src: url(../srcs/GmarketSansBold.otf);
+}
+@font-face {
+    font-family: 'APOLLO';
+    src: url(../srcs/APOLLO.otf);
+}
+
+

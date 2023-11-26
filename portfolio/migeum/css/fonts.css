@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Pretendard Variable';
+    font-weight: 45 920;
+    font-style: normal;
+    font-display: swap;
+    src: local('Pretendard Variable'), url('http://merong.co.kr/fonts/PretendardVariable.woff2') format('woff2-variations');
+ }
+ 
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Thin.woff') format('woff');
+     font-weight: 100;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-ExtraLight.woff') format('woff');
+     font-weight: 200;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Light.woff') format('woff');
+     font-weight: 300;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Regular.woff') format('woff');
+     font-weight: 400;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Medium.woff') format('woff');
+     font-weight: 500;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-SemiBold.woff') format('woff');
+     font-weight: 600;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Bold.woff') format('woff');
+     font-weight: 700;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-ExtraBold.woff') format('woff');
+     font-weight: 800;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Pretendard';
+     src: url('http://merong.co.kr/fonts/Pretendard-Black.woff') format('woff');
+     font-weight: 900;
+     font-display: swap;
+ }
+ 
+
+
+
+ @font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    
+}
+ 
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ body {font-family: 'Pretendard Variable';}
+
+body {font-family: 'Pretendard-Regular';}

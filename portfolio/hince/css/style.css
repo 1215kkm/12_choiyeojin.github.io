@@ -1,0 +1,132 @@
+@charset "UTF-8" ;
+@import url('reset.css');
+@import url('fonts.css');
+
+.centerbox {width: 1200px; margin: 0 auto;}
+
+header {width: 100%; height: 156px; position: absolute; z-index: 7; background: #ece5dd;}
+header .centerbox {width: auto; max-width: 1600px; min-width: 1200px;}
+header h1 {width: 200px; height: 90px;margin: 0 auto;}
+header h1 img {width:200px;height: 90px; }
+header .gnb {width: 900px; height: 100px; float: left;margin: 30px auto; }
+header .gnb li {float: left; height: 70px; line-height: 35px;width: 200px;}
+header .gnb li a {display: block; color: #cf8a86;font-size: 16px;font-family: "SUIT-Regular";text-align: center;opacity: 1;}
+header .gnb li a:hover {opacity: 0.5;transition: 0.2s;}
+header .gnb li .lnb {width: 100%;height: 100%;margin-top: 1px;}
+header .gnb li .lnb li {background:#faf9f7;width: 100%; height: 100%;display: none;}
+header .gnb li .lnb li a {line-height: 70px; color: #cf8a86;font-size: 16px;font-family: "SUIT-Regular";text-align: center;opacity: 1;}
+header .gnb li:hover .lnb li {display: block;}
+header .gnb li .lnb li:hover a {background: #624441;color: #fff;transition: 0.2s;}
+
+
+
+
+header .board_link {width: 300px; height: 35px; float: right; display: flex; justify-content: end; margin-top: 30px;}
+header .board_link a {padding: 0 10px; line-height: 35px; color: #cf8a86;font-size: 12px; font-family: 'SUIT-Regular';position: relative;opacity: 1;}
+header .board_link a:hover {opacity: 0.5; transition: 0.2s;}
+header .board_link a span::after {content: ''; background-color: #cf8a86; width: 1px; height: 9px;float: right;position: absolute;left: 57px; top: 13px;}
+
+#visual {width: 100%; background: url(../images/VISUALF.png) local; 
+    background-repeat: no-repeat;
+    background-size: auto; height: 950px; background-position: center 53px;}
+#visual figure {display: none;}
+#visual figure img {width: 100%; height: 100%;}
+
+/* #visual img {width: 100%;height: 750px;position: absolute;top:150px;} */
+
+
+#section1 {width: 100%;background: #faf9f7; background-size: cover;} 
+#section1 h2 {height: 90px; line-height: 90px; text-align: center;font-family: 'Centaur'; color: #936763;font-size: 32px;font-weight: bold;}
+#section1 .cont_box {width: 100%; height: 510px; }
+
+#section1 .cont_box .big {float: left; width: 714px; height: 430px; background: #eee;}
+#section1 .cont_box .big img {width: 714px;height: 430px;}
+#section1 .cont_box .small {float: right; width: 460px; height: 490px; }
+
+#section1 .cont_box .small li {float: left; width: 221px; height: 224px; margin-right: 17px; margin-bottom: 17px;}
+#section1 .cont_box .small li:nth-child(2n) {margin-right: 0;}
+
+#section1 .cont_box .small li figure {width: 220px;height: 133px;}
+#section1 .cont_box .small li figure img {width: 100%;}
+
+#section1 .cont_box .small li p { line-height: 20px; margin-top: 12px; font-size: 16px;font-family:'Centaur';color: #936763; opacity: 0.5;}
+#section1 .cont_box .small li p:hover {opacity: 1; transition: .3s;}
+#section1 .cont_box .small li p:nth-child(3) {font-size: 16px;}
+#section1 .cont_box .small li span.cate {color: #777; margin-top: 12px; display: block;}
+
+#section2 {width:100%; height: 555px;background:url(../images/png/colorbrown_02.png) no-repeat; background-size: cover; }
+
+#section2 .centerbox .tit_box {width: 415px;height: 290px;float: left; margin-top:153px;color: #fff;}
+#section2 .centerbox .tit_box h4 {font-size: 54px;text-align: center;line-height: 100px;display: block;font-family: "century"; font-weight: normal;}
+#section2 .centerbox .tit_box p {font-size:14px; margin: 10px auto 80px;line-height: 24px;text-align: center;font-family: "centaur";font-weight: lighter;}
+#section2 .centerbox .tit_box .togo {font-size: 12px;}
+
+#section2 .centerbox .cont_box {width: 756px;height: 235px;margin-top:153px;  float: right; display: flex;justify-content: space-between;
+perspective: 1000px;}
+#section2 .centerbox .cont_box li {width: 234px;height: 235px;background: #fff;float:left;margin-right: 20px;}
+#section2 .centerbox .cont_box li img {width: 234px;height: 235px; border: none;}
+
+#section3 {width: 100%; margin-bottom: 100px;}
+#section3 h2 {width: 105px;height: 70px;margin: 20px auto; font-size: 30px; font-family: "century"; color:#936763;line-height: 70px;}
+
+#section3 .centerbox .reviewbox {width: 100%;height: 520px;}
+
+#section3 .centerbox .reviewbox .texts li {width: 100%;height: 160px; border-bottom: 1px solid #eee;} 
+
+#section3 .centerbox .reviewbox .texts li
+span.number {width: 79px;height: 110px; font-size: 20px;float: left; text-align: center; line-height: 110px; margin: 20px auto 10px;font-family: 'Centaur';font-weight: bold;}
+#section3 .centerbox .reviewbox .texts li
+figure {width: 120px;height: 115px;float: left;background: #000;margin: 20px auto; border: 1px solid #eee;}
+#section3 .centerbox .reviewbox .texts li
+figure img {width: 120px;height: 115px;}
+
+#section3 .centerbox .reviewbox .texts li
+.cont {width: 795px;height: 114px; float: left; margin: 20px 0 20px 20px;}
+
+
+#section3 .centerbox .reviewbox .texts li
+.cont h3 {font-size: 18px;width: 330px;height: 40px;line-height: 40px;font-family:'Cafe24Simplehae'; color: #624441;opacity: 1;}
+
+#section3 .centerbox .reviewbox .texts li
+.cont h3:hover{opacity: 0.5; transition: .2s;}
+
+
+#section3 .centerbox .reviewbox .texts li
+.cont p {font-size: 14px;color: #624441;line-height: 30px;width: 330px;height: 30px;}
+
+#section3 .centerbox .reviewbox .texts li
+.cont .starbox {width: 330px;height: 50px;line-height: 50px; font-size: 16px;color: #624441;}
+
+
+#section3 .centerbox .reviewbox .texts li
+span.date {width: 105px;height: 110px;float: left;margin: 20px 0;font-size: 14px;line-height: 110px; text-align: right;color: #624441;}
+#section3 .centerbox .reviewbox .texts li
+span.writer {width: 70px;height: 110px; float: right;margin: 20px 0; font-size: 14px; line-height: 110px;text-align: center;color: #624441;}
+
+
+#floatingmenu {position: fixed; width: 50px;height: 300px;right: 20px; top: 200px;}
+
+
+#floatingmenu a {display: block;width: 50px;height: 50px; border-radius: 50%; background: #fff;text-align: center;line-height: 50px;
+font-size: 16px;margin-bottom: 7px;box-shadow: 10px 10px 20px rgba(0,0,0,0.1); color: #cf8a86; position: relative;overflow: hidden; z-index: 2; font-size: 0; color: transparent; transition: 0.5s;}
+
+#floatingmenu a:hover {background: #000;}
+
+
+
+#floatingmenu a::before {content: ""; position: absolute;transition: 0.5s;width: 100%; height: 100%;background: #624441;left: 0; transform: scale(0); z-index: 1;} 
+#floatingmenu a:hover:before {transform: scale(1);}
+#floatingmenu a:hover:after {color: #fff;}
+#floatingmenu a::after {content:attr(data-semin); position: absolute;width: 100%;height: 100%;left: 0; z-index: 2;font-size: 18px; color:#cf8a86;}
+/* content : attr 은 html 에 적혀있는 속성값을 부를 수 있는 코드임. */
+
+
+
+
+footer {width: 100%;height: 200px; background: url(../images/png/colorpink_04.png) no-repeat; margin: 0 auto; background-size: cover;}
+footer .centerbox h1 {width: 70px;height: 70px; margin: 65px 50px 65px 20px;float: left;}
+footer .centerbox h1 img {width: 70px;height: 70px;}
+footer .centerbox ul {width: 500px;height: 140px;margin:30px auto 30px 0px;float: left;}
+footer .centerbox ul .intro span {font-size: 14px; color: #fff; padding:10px;}
+footer .centerbox ul .address,
+footer .centerbox ul .name {font-size: 12px; margin: 30px auto;text-indent: 10px;color: #fff;}
